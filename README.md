@@ -1,4 +1,4 @@
-# Next-Gen Learning Dashboard 
+# Next-Gen Learning Dashboard  
 
 This project is a student dashboard prototype built for the **Frontend Intern Challenge: Next-Gen Learning Dashboard** assignment task by Andaz Kumar.
 Next.js student learning dashboard built with Supabase, Tailwind CSS, Framer Motion, and TypeScript. 
