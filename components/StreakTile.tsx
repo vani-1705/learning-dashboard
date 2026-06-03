@@ -1,4 +1,4 @@
-/* Show Current Learning Streak and Weekly Activity Dots */
+/* Show Current Learning Streak and Weekly Activity Dots */ 
 'use client'
 
 import { motion } from 'framer-motion'
