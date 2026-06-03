@@ -1,4 +1,4 @@
-/* Mock contribution graph like Github activity grid */
+/* Mock contribution graph like Github activity grid */ 
 'use client'
 
 import { motion } from 'framer-motion'
