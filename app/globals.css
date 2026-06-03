@@ -1,0 +1,50 @@
+/* Google fonts - Syne for headings, DM sans for body */
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap');
+
+@import "tailwindcss";
+
+/* Dark theme tokens + Bento grid layout */
+:root {
+  --bg-primary: #0a0a0f;
+  --bg-card: #111118;
+  --bg-card-hover: #16161f;
+  --accent-blue: #4f8ef7;
+  --accent-purple: #a855f7;
+  --accent-teal: #2dd4bf;
+  --text-primary: #f0f0ff;
+  --text-muted: #6b7280;
+  --border: rgba(255,255,255,0.06);
+}
+
+/* For smooth box sizing across all elements */
+* { box-sizing: border-box; }
+
+/* For Dark Background + Font setup */
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'DM Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+/* For thin custom scrollbar */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: var(--bg-primary); }
+::-webkit-scrollbar-thumb { background: #333; border-radius: 2px; }
+
+/* For 3 column bento grid on Desktop */
+.bento-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+/* For 2 column laoyout on Tablet */
+@media (max-width: 1024px) {
+  .bento-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* For 3 column layout on Mobile */
+@media (max-width: 768px) {
+  .bento-grid { grid-template-columns: 1fr; }
+}
