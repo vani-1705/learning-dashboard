@@ -1,4 +1,4 @@
-/* Single course card for icon, title, animated progress bar */
+/* Single course card for icon, title, animated progress bar */ 
 'use client'
 
 import { motion } from 'framer-motion'
