@@ -1,4 +1,4 @@
-/* Main Dashboard Page combines all Bento Tiles */
+/* Main Dashboard Page combines all Bento Tiles */ 
 import { Suspense } from 'react'
 import Sidebar from '@/components/Sidebar'
 import HeroTile from '@/components/HeroTile'
