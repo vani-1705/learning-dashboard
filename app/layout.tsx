@@ -1,4 +1,4 @@
-/* Covers every page with loads fonts and sets page title */
+/* Covers every page with loads fonts and sets page title */ 
 import type { Metadata } from 'next'
 import './globals.css'
 
