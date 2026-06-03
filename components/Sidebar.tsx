@@ -1,4 +1,4 @@
-/* Collapsible Sidebar with framer motion spring animation */
+/* Collapsible Sidebar with framer motion spring animation */ 
 'use client'
 
 import { useState } from 'react'
