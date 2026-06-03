@@ -1,4 +1,4 @@
-/* Client components handles staggered entrance animation */
+/* Client components handles staggered entrance animation */ 
 'use client'
 
 import { motion, Variants } from 'framer-motion'
