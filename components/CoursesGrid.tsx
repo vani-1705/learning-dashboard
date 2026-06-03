@@ -1,4 +1,4 @@
-/* Server component fetches course from supabase */
+/* Server component fetches course from supabase */ 
 import { supabase } from '@/lib/supabase'
 import { Course } from '@/types'
 import CoursesGridClient from './CoursesGridClient'
