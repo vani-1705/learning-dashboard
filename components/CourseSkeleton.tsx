@@ -1,4 +1,4 @@
-/* For display the courses fetch from Supabase */
+/* For display the courses fetch from Supabase */ 
 export default function CourseSkeleton() {
   return (
     <div
